@@ -1,0 +1,3 @@
+cd /tmp
+echo hey
+
