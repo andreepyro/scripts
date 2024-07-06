@@ -24,3 +24,7 @@ docker pull busybox
 # install ziti-cli locally
 curl -sS https://get.openziti.io/install.bash | sudo bash -s openziti
 
+# download scripts
+curl https://raw.githubusercontent.com/andreepyro/scripts/main/fast_ctrl.sh > fast_ctrl.sh
+curl https://raw.githubusercontent.com/andreepyro/scripts/main/fast_router.sh > fast_router.sh
+
