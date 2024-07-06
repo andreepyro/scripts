@@ -16,4 +16,6 @@ newgrp docker
 
 # pull docker images
 docker pull openziti/quickstart
+docker pull openziti/zac
+docker pull busybox
 

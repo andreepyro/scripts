@@ -1,12 +1,12 @@
 mkdir -p $HOME/.ziti/zac-pki
 
 docker run -it --rm --name temp \
-  -v myPersistentZitiFiles:/persistent \
+  -v openZitiFiles:/persistent \
   -v $HOME/.ziti/zac-pki:/zac-pki busybox \
   cp /persistent/pki/ziti-edge-controller-intermediate/keys/ziti-edge-controller-server.key /zac-pki
   
 docker run -it --rm --name temp \
-  -v myPersistentZitiFiles:/persistent \
+  -v openZitiFiles:/persistent \
   -v $HOME/.ziti/zac-pki:/zac-pki busybox \
   cp /persistent/pki/ziti-edge-controller-intermediate/certs/ziti-edge-controller-server.chain.pem /zac-pki
 
