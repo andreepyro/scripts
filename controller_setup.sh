@@ -37,7 +37,7 @@ docker run \
   --network openZitiNetwork \
   --network-alias ziti-edge-router-1 \
   -p 3022:3022 \
-  -it \
+  -d \
   --rm \
   -v openZitiFiles:/persistent \
   openziti/quickstart \
