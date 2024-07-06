@@ -17,5 +17,10 @@ newgrp docker
 # pull docker images
 docker pull openziti/quickstart
 docker pull openziti/zac
+docker pull openziti/ziti-router
+docker pull openziti/ziti-controller
 docker pull busybox
+
+# install ziti-cli locally
+curl -sS https://get.openziti.io/install.bash | sudo bash -s openziti
 
